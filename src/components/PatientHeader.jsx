@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
+import { AbhaCardModal } from './AbhaCardModal';
 import { ShieldCheck, CreditCard, User, Heart, ChevronDown, ChevronUp, CheckCircle2, QrCode, FileText, Phone, Building2 } from 'lucide-react';
 
 export const PatientHeader = ({ onNavigate }) => {
   const { lang, t } = useLanguage();
   const [isExpanded, setIsExpanded] = useState(false);
+  const [isAbhaModalOpen, setIsAbhaModalOpen] = useState(false);
 
   return (
     <div className="bg-white rounded-3xl border border-slate-200/90 shadow-xs overflow-hidden transition-all">
@@ -63,6 +65,17 @@ export const PatientHeader = ({ onNavigate }) => {
               </span>
             </div>
           </div>
+
+          {/* ABDM QR Card Modal Trigger */}
+          <button
+            type="button"
+            onClick={() => setIsAbhaModalOpen(true)}
+            className="px-3 py-1.5 rounded-xl bg-brand-700 hover:bg-brand-800 text-white text-xs font-bold flex items-center gap-1.5 shadow-xs transition-transform hover:scale-105 active:scale-95"
+            title="Open ABDM QR Digital Health Card"
+          >
+            <QrCode className="w-3.5 h-3.5" />
+            <span>ABDM QR Card</span>
+          </button>
 
           {/* Expand Details Trigger */}
           <button
@@ -125,6 +138,12 @@ export const PatientHeader = ({ onNavigate }) => {
           </div>
         </div>
       )}
+
+      {/* ABDM Official QR Card Modal */}
+      <AbhaCardModal
+        isOpen={isAbhaModalOpen}
+        onClose={() => setIsAbhaModalOpen(false)}
+      />
 
     </div>
   );
