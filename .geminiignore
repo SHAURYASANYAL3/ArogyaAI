@@ -1,0 +1,36 @@
+# Dependency Directories
+node_modules/
+.pnp
+.pnp.js
+
+# Production Build Artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Package Manager Locks & Machine Metadata (FinOps: high token drain)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Editor & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# Large Binary Media (unless explicitly inspected)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.webm
