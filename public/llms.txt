@@ -1,0 +1,22 @@
+# ArogyaAI (AyuVani)
+
+> Your Family's WhatsApp Health Ally & Real-Time Aarogyasri Hospital Admission Navigator for Andhra Pradesh.
+
+## Overview
+ArogyaAI empowers rural and semi-urban Telugu-speaking families across Andhra Pradesh (Visakhapatnam, Vijayawada, Guntur, Tirupati) to decode handwritten doctor prescriptions into spoken Telugu audio reminders and find live cashless hospital bed availability under the Dr. YSR Aarogyasri Health Scheme (₹25,00,000 cashless cover) and ABDM (Ayushman Bharat Digital Mission).
+
+## Key Features
+- **Prescription AI Vision**: Analyzes handwritten prescriptions using Gemini Vision AI, extracting medication names, dosage timings (morning/afternoon/night), and food instructions in Telugu.
+- **Telugu Voice Synthesis & Recognition**: Full bidirectional spoken Telugu support powered by Web Speech API, with clear conversational tone.
+- **Live Aarogyasri Hospital Directory**: Real-time bed availability (ICU, General, Oxygen), Aarogyamithra contact desk numbers, and cashless claim navigation.
+- **Generic Medicine Cost Calculator**: Automatically calculates Jan Aushadhi generic alternatives, saving families 60-80% on chronic meds.
+- **ABDM Ayushman Bharat Digital Mission**: Digital ABHA card and Scan & Share QR code generation for instant hospital outpatient registration.
+- **Emergency 108/104 SOS Quick Dial**: One-tap emergency dispatch and medical helpline routing.
+
+## Production Specs
+- **Client**: React 19, Vite, Tailwind CSS
+- **Deployment**: Vercel Edge Network (Global CDN)
+- **Security**: CSP, Strict-Transport-Security, X-Frame-Options, X-Content-Type-Options
+- **License**: MIT
+- **Canonical URL**: https://arogya-two-bice.vercel.app/
+- **GitHub Repository**: https://github.com/SHAURYASANYAL3/Ayuvani
