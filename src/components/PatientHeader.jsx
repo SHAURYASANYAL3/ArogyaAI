@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { AbhaCardModal } from './AbhaCardModal';
-import { ShieldCheck, CreditCard, User, Heart, ChevronDown, ChevronUp, CheckCircle2, QrCode, FileText, Phone, Building2 } from 'lucide-react';
+import { ShieldCheck, CreditCard, ChevronDown, ChevronUp, CheckCircle2, QrCode, FileText, Phone } from 'lucide-react';
 
 export const PatientHeader = ({ onNavigate }) => {
   const { lang, t } = useLanguage();

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { Search, Phone, CheckCircle2, XCircle, Clock, MapPin, Building2, Filter, ShieldCheck, MessageSquare, AlertCircle, Siren, Edit3, Check, X } from 'lucide-react';
+import { Search, Phone, CheckCircle2, XCircle, Clock, MapPin, Filter, ShieldCheck, MessageSquare, AlertCircle, Siren, Edit3, Check, X } from 'lucide-react';
 
 export const HospitalTracker = ({ hospitals, onCallDesk, onUpdateHospitalStatus }) => {
   const { t } = useLanguage();

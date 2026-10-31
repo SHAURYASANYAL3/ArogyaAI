@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { CHATGPT_VS_AROGYA, PM_JAN_AUSHADHI_VIZAG_KENDRAS } from '../data/sampleData';
-import { ShieldAlert, Users, Award, Landmark, TrendingUp, Trash2, MessageSquare, ExternalLink, Sparkles, Building2, HeartHandshake, MapPin, Phone, Clock, ShieldCheck, CheckCircle2, XCircle } from 'lucide-react';
+import { Users, Trash2, MessageSquare, ExternalLink, Building2, MapPin, Phone, Clock, ShieldCheck, CheckCircle2, XCircle } from 'lucide-react';
 
 export const AboutScreen = ({ stats, onClearData }) => {
   const { t } = useLanguage();

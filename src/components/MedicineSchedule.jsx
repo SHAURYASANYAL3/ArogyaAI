@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { speechService } from '../services/speechService';
-import { Check, Clock, Volume2, Sun, Sunset, Moon, Bell, Sparkles, MessageSquare, AlertCircle, Share2, User, Heart, Activity, ShieldCheck, CheckCircle2 } from 'lucide-react';
+import { Check, Clock, Volume2, Sun, Sunset, Moon, Bell, MessageSquare, Share2, User, Heart, Activity, CheckCircle2 } from 'lucide-react';
 
 export const MedicineSchedule = ({ schedule, onToggleDoseTaken, onNavigate }) => {
   const { t, lang } = useLanguage();

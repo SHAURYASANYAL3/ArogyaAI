@@ -3,7 +3,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { DEMO_PRESCRIPTIONS, CHATGPT_VS_AROGYA } from '../data/sampleData';
 import { compressImage } from '../services/geminiService';
 import { PatientHeader } from './PatientHeader';
-import { Camera, Upload, MessageSquare, ArrowRight, Sparkles, Building2, Calendar, AlertCircle, RefreshCw, FileText, CheckCircle2, ShieldCheck, HelpCircle, Check, X } from 'lucide-react';
+import { Camera, Upload, MessageSquare, Sparkles, Building2, Calendar, AlertCircle, RefreshCw, FileText, ShieldCheck } from 'lucide-react';
 
 export const ChatIntake = ({ onSelectPrescription, onNavigate, onAnalyzeImage, isAnalyzing, analysisError, onRetry }) => {
   const { t } = useLanguage();
