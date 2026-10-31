@@ -44,7 +44,7 @@ export const PatientHeader = ({ onNavigate }) => {
           <div className="px-3 py-1.5 rounded-xl bg-slate-50 border border-slate-200/80 flex items-center gap-2">
             <CreditCard className="w-4 h-4 text-brand-700 flex-shrink-0" />
             <div>
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block leading-none">
+              <span className="text-[10px] font-bold text-slate-600 uppercase tracking-wider block leading-none">
                 White Ration Card (బియ్యం కార్డు)
               </span>
               <span className="text-xs font-bold text-slate-800 font-mono">
@@ -97,40 +97,40 @@ export const PatientHeader = ({ onNavigate }) => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5 pt-2">
             
             <div className="p-3.5 rounded-2xl bg-white border border-slate-200 space-y-1.5">
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
+              <span className="text-[10px] font-bold text-slate-600 uppercase tracking-wider flex items-center gap-1.5">
                 <FileText className="w-3.5 h-3.5 text-brand-700" />
                 <span>Linked Hospital Records (ABDM)</span>
               </span>
               <p className="text-xs font-bold text-slate-800">
                 King George Hospital (KGH) & Care Hospital
               </p>
-              <p className="text-[11px] text-slate-500">
+              <p className="text-[11px] text-slate-600">
                 2 Consultations, 1 Echo Doppler, 3 Lipid Profiles synced via ABHA Gateway.
               </p>
             </div>
 
             <div className="p-3.5 rounded-2xl bg-white border border-slate-200 space-y-1.5">
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
+              <span className="text-[10px] font-bold text-slate-600 uppercase tracking-wider flex items-center gap-1.5">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
                 <span>Aarogyasri Pre-Auth Status</span>
               </span>
               <p className="text-xs font-bold text-emerald-800">
                 Instant Desk Verification Ready
               </p>
-              <p className="text-[11px] text-slate-500">
+              <p className="text-[11px] text-slate-600">
                 BPL White Rice Card validated. Zero out-of-pocket required for 3,257+ listed procedures.
               </p>
             </div>
 
             <div className="p-3.5 rounded-2xl bg-white border border-slate-200 space-y-1.5">
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
+              <span className="text-[10px] font-bold text-slate-600 uppercase tracking-wider flex items-center gap-1.5">
                 <Phone className="w-3.5 h-3.5 text-amber-600" />
                 <span>Family Caregiver Sync</span>
               </span>
               <p className="text-xs font-bold text-slate-800">
                 WhatsApp Linked (+91 98*** *****)
               </p>
-              <p className="text-[11px] text-slate-500">
+              <p className="text-[11px] text-slate-600">
                 Daily audio dosage alerts and missed pill alerts automatically routed to caregiver.
               </p>
             </div>

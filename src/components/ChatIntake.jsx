@@ -112,7 +112,7 @@ export const ChatIntake = ({ onSelectPrescription, onNavigate, onAnalyzeImage, i
             <span className="text-2xl font-black text-rose-600 font-heading">39.4%–43.4%</span>
             <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-rose-50 text-rose-700 border border-rose-200">National Health Accounts</span>
           </div>
-          <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider">Out-of-Pocket Health Spending</h4>
+          <h3 className="text-xs font-bold text-slate-800 uppercase tracking-wider">Out-of-Pocket Health Spending</h3>
           <p className="text-xs text-slate-600 leading-relaxed">
             Medical expenditures drive millions of Indian families into poverty every year.
           </p>
@@ -131,7 +131,7 @@ export const ChatIntake = ({ onSelectPrescription, onNavigate, onAnalyzeImage, i
             <span className="text-2xl font-black text-amber-600 font-heading">₹2,500+ Cr</span>
             <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200">Andhra Pradesh</span>
           </div>
-          <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider">Aarogyasri Hospital Halts</h4>
+          <h3 className="text-xs font-bold text-slate-800 uppercase tracking-wider">Aarogyasri Hospital Halts</h3>
           <p className="text-xs text-slate-600 leading-relaxed">
             Private network hospitals in AP repeatedly paused cashless admissions over unpaid dues.
           </p>
@@ -150,7 +150,7 @@ export const ChatIntake = ({ onSelectPrescription, onNavigate, onAnalyzeImage, i
             <span className="text-2xl font-black text-brand-700 font-heading">50%+</span>
             <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-teal-50 text-teal-800 border border-teal-200">Clinical Audit</span>
           </div>
-          <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider">Prescription Illegibility</h4>
+          <h3 className="text-xs font-bold text-slate-800 uppercase tracking-wider">Prescription Illegibility</h3>
           <p className="text-xs text-slate-600 leading-relaxed">
             Over half of outpatient paper scripts have dosing ambiguity, leading to chemist brand substitution.
           </p>
